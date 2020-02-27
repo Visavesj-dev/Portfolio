@@ -1,0 +1,114 @@
+[debug] [2020-02-27T06:16:35.456Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T06:16:35.457Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-02-27T06:16:35.457Z] CLI Version:   7.14.0
+[debug] [2020-02-27T06:16:35.457Z] Platform:      darwin
+[debug] [2020-02-27T06:16:35.457Z] Node Version:  v12.13.1
+[debug] [2020-02-27T06:16:35.458Z] Time:          Thu Feb 27 2020 13:16:35 GMT+0700 (Indochina Time)
+[debug] [2020-02-27T06:16:35.458Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T06:16:35.458Z] 
+[debug] [2020-02-27T06:16:35.463Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-27T06:16:35.463Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/visavesjchaingsan/Desktop/Portfolio/MyPort/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using visavesj.
+[debug] [2020-02-27T06:16:39.521Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-27T06:16:39.522Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-27T06:16:40.036Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-27T06:16:40.050Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/visavesj  
+ 
+[debug] [2020-02-27T06:16:40.675Z] <<< HTTP RESPONSE 403
+[debug] [2020-02-27T06:16:40.676Z] <<< HTTP RESPONSE BODY
+[debug] [2020-02-27T06:16:40.677Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-02-27T06:16:40.818Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1184:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to get Firebase project visavesj. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-02-27T06:20:30.439Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T06:20:30.441Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-02-27T06:20:30.441Z] CLI Version:   7.14.0
+[debug] [2020-02-27T06:20:30.441Z] Platform:      darwin
+[debug] [2020-02-27T06:20:30.441Z] Node Version:  v12.13.1
+[debug] [2020-02-27T06:20:30.442Z] Time:          Thu Feb 27 2020 13:20:30 GMT+0700 (Indochina Time)
+[debug] [2020-02-27T06:20:30.442Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T06:20:30.442Z] 
+[debug] [2020-02-27T06:20:30.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-27T06:20:30.454Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/visavesjchaingsan/Desktop/Portfolio/MyPort/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using visavesj.
+[debug] [2020-02-27T06:20:33.077Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/visavesj  
+ 
+[debug] [2020-02-27T06:20:33.675Z] <<< HTTP RESPONSE 403
+[debug] [2020-02-27T06:20:33.676Z] <<< HTTP RESPONSE BODY
+[debug] [2020-02-27T06:20:33.678Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-02-27T06:20:34.115Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1184:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to get Firebase project visavesj. Please make sure the project exists and your account has permission to access it.
